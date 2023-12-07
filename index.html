@@ -5,7 +5,62 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Puma Products</title>
   <style>
-    /* Your existing styles remain unchanged */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f0f0;
+    }
+
+    header, footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 1em;
+    }
+
+    nav {
+      background-color: #555;
+      padding: 1em;
+      text-align: center;
+    }
+
+    section {
+      padding: 2em;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+
+    .product {
+      background-color: #fff;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      padding: 1em;
+      margin: 1em;
+      width: 200px;
+      text-align: center;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    button {
+      background-color: #FF0000;
+      color: #fff;
+      padding: 0.5em 1em;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    input[type="text"] {
+      padding: 0.5em;
+      border-radius: 4px;
+    }
   </style>
 </head>
 <body>
@@ -19,7 +74,7 @@
     <a href="#">Men</a>
     <a href="#">Women</a>
     <a href="#">Kids</a>
-    <label for="search">Search</label>
+    <label for="search">Search:</label>
     <input type="text" id="search" placeholder="Search">
   </nav>
 
